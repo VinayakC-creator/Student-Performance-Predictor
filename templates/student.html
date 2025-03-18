@@ -93,7 +93,7 @@ button {
 <div id="profileBox" class="profile-box">
     <h4 style="color: black;">Hello! User</h4>
     <p style="color: black;">Email: <span id="userEmail">{{ session['userEmail'] }}</span></p>
-    <p style="color: black;">Password: <span id="userPassword">**********</span></p> <!-- Example placeholder -->
+    <p style="color: black;">Password: <span id="userPassword"></span></p> <!-- Example placeholder -->
     <a href="/logout" id="logoutButton" style="color: red;">Logout</a>
 </div>
 
@@ -734,7 +734,7 @@ button {
                   // Function to close the thank you modal
                   function closeModal() {
                       document.getElementById("thankYouModal").style.display = "none";  // Hide modal
-                  }
+                  }
               </script>
 
               </div>
